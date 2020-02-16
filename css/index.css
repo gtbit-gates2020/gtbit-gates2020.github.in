@@ -461,4 +461,12 @@ a:hover{
     animation-iteration-count: infinite;
 }
 
+.developer{
+    font-size: 20px;
+}
+@media(max-width:1000px){
+    .developer{
+        font-size: 15px;
+    }
+}
 /* footer end */
