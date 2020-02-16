@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/d081420e73.js"></script>
 
     <!-- Links -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,11 +20,17 @@
     <title>GATES 20-20 ------GTBIT</title>
 </head>
 <body>
-    <div id="bckgrnd"></div>
-<!--  -->
+
+    <!-- go to top start -->
+
+    <div class="totop animated lightSpeedIn" id="totop" style="font-size: 50px;cursor:pointer;color: #974be9; position: fixed; bottom: 10px;right: 10px;" onclick="totop()"><i class="fas fa-arrow-alt-circle-up"></i></div>
+
+    <!-- go to top end -->
+
+<!-- preloader start  -->
     <div class="preloader" id="preloader">
         <div>
-            <svg  viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg" class="animated wobble">
+            <svg  viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg" class="animated pulse">
                 <g id="LOGO-01 1">
                 <path id="Vector5"  d="M1010.81 636.29C1008.98 662.1 1001.98 686.86 994.35 711.29C966.79 799.63 918.8 874.71 847.15 933.45C783.73 985.45 710.74 1015.52 629.58 1026.37C566.79 1034.77 505.17 1029.45 444.53 1012.16C382.837 994.771 325.508 964.56 276.29 923.5C220.29 876.91 176.93 820.64 146.84 754.18C126.21 709.08 113.23 660.861 108.43 611.5C107.96 606.56 108.43 601.5 108.43 596.5C115.77 596.37 116.24 603.01 118.35 607.39C132.81 637.59 155.15 659 187 669.51C230.34 683.89 280.33 668.6 309.08 633.34C319.45 620.62 327.08 606.88 331.15 591.05C332.07 587.54 332.49 583.15 337.79 583.17C346.19 640.17 367.92 690.48 410.22 730.79C451.39 770.01 499.91 791.79 556.63 795.79C596.8 798.6 634.87 792.05 670.41 772.63C696.375 758.594 718.686 738.663 735.55 714.44C736.394 713.419 737.495 712.642 738.74 712.19C752.43 710.26 766.18 711.05 779.93 711.12C816.28 711.3 852.63 711.72 888.93 711.04C938.34 710.12 978.21 691.91 1001.45 645.3C1003.43 641.37 1005.12 636.59 1010.81 636.29Z" fill="#F172AC"/>
                 <path id="Vector4"  d="M106.82 538.57C107.13 491.64 117 446.49 132.82 402.63C164.3 315.58 217 243.71 290.15 187.72C352.94 139.67 424 109.8 502.23 98.14C591.743 84.8133 678 96.4333 761 133C807.08 153.38 849.69 179.58 885.65 215.38C923.16 252.73 926.25 316.57 897.22 360.81C872.16 399 815.7 421.7 770.22 407.88C749.34 401.54 732.13 389.3 715.04 376.23C654.76 330.13 587.47 315.84 513.91 334.33C460.08 347.85 416.91 377.87 383.68 422.48C356.84 458.48 343.2 499.4 337.68 543.48C331.98 542.39 332.99 537.08 331.89 533.48C321.59 499.54 302.02 473.7 269.52 458.13C209.7 429.45 136.52 460.41 115.32 523.57C113.51 529 113.82 536 106.82 538.57Z" fill="#4FC7E7"/>
@@ -35,14 +42,14 @@
         </div>
     </div>
 
-    <!--  -->
+    <!-- preloader end  -->
 
     <!-- mobile navbar start -->
     <div  id="open">
         <div style="display: flex;">
-            <div style="font-size: 40px;font-weight: bold;cursor: pointer;outline: none; " onclick="mobilenav()">&#9776;</div>
+            <div style="font-size: 25px;font-weight: bold;cursor: pointer;outline: none; " onclick="mobilenav()"><i class="fas fa-braille"></i></div>
             <div style="width: 100vw;display: flex;justify-content: center;align-items: center;">
-                <img src="images/Logo-01-01.png" alt="gtbit 2020 logo" style="width: 50px;height:50px;">
+                <img src="images/Logo-01-01.png" alt="gtbit 2020 logo" style="width: 50px;height:50px;" class="animated lightSpeedIn">
             </div>
         </div>
     </div>
@@ -82,7 +89,7 @@
 
     <div  class="row row1 mt-5">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-auto text-center" data-aos="fade-up" data-aos-duration="2000">
-            <p id="gates1">GATES 20-20 Annual Fest Of GTBIT</p>
+            <p id="gates1">GATES 20-20 Annual Fest Of GTBIT<br><i style="color: #F171AB;font-weight: bolder;font-family: gtbit2;">( 18<sup>th</sup> March)</i></p>
             <div><a href=""><button class="getticket"> Get Tickets</button></a></div>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" id="frontsvg">
@@ -339,7 +346,7 @@
                 </svg>
                 
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 counter " data-aos="zoom-in" data-aos-duration="3000">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 counter " data-aos="zoom-in" data-aos-duration="2000">
             <div class="row justify-content-center welcome">
                 <p>We will meet in.....</p>
             </div>
@@ -364,6 +371,87 @@
         </div>
     </div>
 
+
+    <!-- footer start -->
+
+    <div class="upperfooter mt-5">
+        <div class="row pt-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
+                <div class="d-flex justify-content-center">
+                    <a href="tel:9868232286" class="hrotate">
+                    <div class="text-center">
+                        <i class="fas fa-phone-alt upperfooteri"></i>
+                    </div>
+                    <div class="text-center" style="color: #3e12eb;font-weight: bolder;">
+                        <p>9868232286</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex justify-content-center">
+                        <a href="mailto:@gatesgtbitofficial@gmail.com" class="hrotate">
+                        <div class="text-center">
+                            <i class="fas fa-envelope upperfooteri"></i>
+                        </div>
+                        <div class="text-center" style="color: #3e12eb;font-weight: bolder;">
+                            <p>gatesgtbitofficial@gmail.com</p>
+                        </div>
+                        </a>
+                    </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
+                <a  href="https://www.google.com/maps?ll=28.631787,77.116482&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=7536328581513829246" class="hrotate">
+                    <div class="text-center ">
+                        <i class="fas fa-map-marked-alt upperfooteri"></i>
+                    </div>
+                    <div class="text-center" style="color: #3e12eb;font-weight: bolder;">
+                        <p>G-8 Area Rajouri Garden, New Delhi - 110064 (India)
+                        </p>
+                    </div>
+                    </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer1 pt-3 pb-3">
+            <div class="row justify-content-center " data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="col-12 col-sm-12 col-ms-12 col-lg-12 col-xl-12" >
+                    <p class="text-center enjoy " style="font-size: 40px;color: #F171AB;"><i class="fas fa-glass-cheers pr-3 animated shake party1" style="color: #A94D9D;"></i><i>Come And Enjoy The Events</i><i class="fas fa-glass-cheers pl-3 animated shake party1" style="color: #A94D9D;"></i></p>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="row">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href=""><i class="fab fa-facebook-square contacts hrotate1"></i></a></div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href="https://www.instagram.com/gates_gtbit/"><i class="fab fa-instagram-square contacts hrotate1"></i></a></div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href=""><i class="fab fa-twitter-square contacts hrotate1"></i></a></div>
+                    <div class="col-3 col-sm- col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href="mailto:@gatesgtbitofficial@gmail.com"><i class="fas fa-mail-bulk contacts hrotate1"></i></a></div>
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <div class="row">
+                    <p class="text-center">Our aim is to carve a niche for GATES that would set it apart from all other fest in India. We stand by GATES' motto of fun and success. and wish to showcase the uniqueness which GTBIT stands by hosting innovative,groundbreaking and progressive events.</p>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-21 col-lg-12 col-xl-12 text-center">&copy All Rights are Reserved</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <p style="font-size: 20px;">Made with <i class="fas fa-heart animated heartBeat" style="color: red;"></i> By <a href="images/Kuldeep_Rawat_Resume.pdf">Kuldeep Rawat</a> & <a href="images/resume.pdf">Aman</a></p>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end -->
     <!-- counter end -->
     <script>
         $(window).load(()=> {
