@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 @font-face{
     font-family: gtbit1;
     src: url(../images/ProductSans-Thin.ttf);
+}
+@font-face{
+    font-family: gtbit2;
+    src: url(../images/AvenirNextLTPro-Regular.otf);
+}
+body{
+    background: url(../images/backgroundW.png) center center fixed no-repeat;
+    background-size: cover;
 }
 ::-webkit-scrollbar {
     width: 15px;
@@ -59,20 +68,28 @@
     width: 600px;
     height: 600px;
 }
-.wobble{
+.pulse{
+    animation-duration: .2s;
+    -webkit-animation-duration: .2s;
+    -moz-animation-duration: .2s;
+    -o-animation-duration: .2s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
 }
 
 /* preloader end */
-#bckgrnd{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background: url(../images/backgroundW.png) center center fixed no-repeat;
-    background-size: cover;
-    z-index: -1;
+
+/* to top start */
+
+#totop{
+    display: none;
+    z-index: 10;
+    transition: all 1s linear;
 }
+
+/* to top end */
 a:hover{
     text-decoration: none!important;
 }
@@ -113,7 +130,7 @@ a:hover{
 .mobilenav{
     width: 0%;
     height:0vh;
-    background-color:aquamarine ;
+    background-color:#7fffd4 ;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 60%;
     text-align: center;
@@ -258,9 +275,12 @@ ul li,a{
     font-weight: bolder;
     box-shadow: 2px 2px 10px rgb(46, 148, 177);
 }
+.getticket:focus{
+    outline: none;
+}
 /* window nav end */
 
-/* font start */
+/* front start */
 
 
 @media(max-width:1000px){
@@ -270,7 +290,7 @@ ul li,a{
 }
 #gates1{
     font-size: 40px;
-    font-family: gtbit1;
+    font-family: gtbit2;
     color: #6B66AE;
 } 
 .jackInTheBox{
@@ -321,6 +341,12 @@ ul li,a{
         -o-transform: translateY(-5px);
     }
 } 
+.lightSpeedIn{
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+}
 /* front end */
 
 
@@ -372,4 +398,67 @@ ul li,a{
 
 .calendar svg{
     width: 500px;
-} 
+}
+
+/* footer start */
+
+.footer{
+    background-color: rgb(250, 246, 249);
+    font-family: gtbit1;
+}
+.shake{
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+}
+.contacts{
+    font-size: 60px;
+}
+.footer div:nth-child(2)>div div:nth-child(1) i{
+    color: #3e12eb;
+}
+.footer div:nth-child(2)>div div:nth-child(2) i{
+    color: #6B66AE;
+}
+.footer div:nth-child(2)>div div:nth-child(3) i{
+    color: #4CC7E8;
+}
+.footer div:nth-child(2)>div div:nth-child(4) i{
+    color: rgb(153, 10, 10);
+}
+/*  */
+.hrotate:hover  div:nth-child(1), .hrotate1:hover{
+    transform: rotate(10deg);
+}
+.hrotate:hover{
+    color: rgb(221, 50, 50)!important;
+}
+@media(max-width: 1000px){
+    .enjoy{
+        font-size: 25px!important;
+    }
+    .party1{
+        display: none;
+    }
+    .contacts{
+        font-size: 40px!important;
+    }
+}
+a:hover{
+    text-decoration: none!important;
+}
+.upperfooter{
+    background-color: rgba(250, 246, 249, 0.568);
+    border: 1px dashed #eb12bc;
+    font-family: gtbit1;
+}
+.upperfooteri{
+    font-size: 40px;
+    color: #eb12bc;
+}
+.heartBeat{
+    animation-iteration-count: infinite;
+}
+
+/* footer end */
