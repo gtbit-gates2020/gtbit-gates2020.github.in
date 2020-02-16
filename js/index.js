@@ -26,17 +26,17 @@
         // ***************  Scroll  *********************//
         window.onscroll=()=>{
             var open = document.getElementById("open");
-            var mobilenav = document.getElementById('mobilenav');
+            var totop = document.getElementById('totop');
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 open.style.display="block";
-                mobilenav.style.display="flex";
                 open.style.backgroundColor = "#ffffff";
                 open.style.boxShadow="0px 2px 7px #fefefe";
+                totop.style.display="block";
               } else {
                 open.style.display="none";
-                mobilenav.style.display="none";
                 open.style.backgroundColor = "rgba(241, 113, 171, 0)";
                 open.style.boxShadow="none";
+                totop.style.display="none";
               }
         }
 
@@ -44,9 +44,9 @@
 
         function Countdown(){
             var now=new Date();
-            var Diwali=new Date(2020,03,18);
+            var gates=new Date(2020,02,18);
             var nowTime=now.getTime();
-            var eventTime=Diwali.getTime();
+            var eventTime=gates.getTime();
             if(nowTime>eventTime){
                 
             document.getElementById("days").textContent=0;
@@ -79,4 +79,11 @@
 
                 setTimeout(Countdown,1000);
             }
-        } 
+        }
+
+        // to top
+
+        function totop(){
+            document.body.scrollTop='0';
+            document.documentElement.scrollTop='0';
+        }
