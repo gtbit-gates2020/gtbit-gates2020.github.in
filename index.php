@@ -53,17 +53,19 @@
             </div>
         </div>
     </div>
-    <div class="close" onclick="mobilenav()" style="font-size: 40px;font-weight: bold;cursor: pointer;display: none;outline: none;" id="close">&times;</div>
     
     
     <div class="mobilenav " id="mobilenav">
+    <div class="close" onclick="mobilenav()" style="font-size: 40px;font-weight: bold;cursor: pointer;display: none;outline: none;" id="close">&times;</div>
     <div id="list">
         <img src="images\Logo-01-01.png" alt="GTBIT gates 20-20 logo" class="animated flash">
-        <ul class="animated rubberBand" >
-            <li ><a href="" >Home</a></li>
-            <li ><a href="">About</a></li>
-            <li ><a href="">Contact</a></li>
-            <li ><a href="getTicket.php">Get Ticket</a></li>
+        <ul class="animated rubberBand">
+            <li onclick="mobilenav()"><a href="" >Home</a></li>
+            <li onclick="mobilenav()"><a href="">About</a></li>
+            <li onclick="mobilenav()"><a href="#contact">Contact</a></li>
+            <li onclick="mobilenav()"><a href="#memories">Memories</a></li>
+            <li onclick="mobilenav()"><a href="#flashback">Flashback</a></li>
+            <li onclick="mobilenav()"><a href="#">Get Ticket</a></li>
         </ul>
     </div>
     </div>
@@ -78,8 +80,8 @@
             <ul style="display: flex;float: left; ">
                 <li class="ml-5 mr-5"><a href="">Home</a></li>
                 <li class="ml-5 mr-5"><a href="">About</a></li>
-                <li class="ml-5 mr-5"><a href="">Contact</a></li>
-                <li class="ml-5 mr-5"><a href="getTicket.php"><button class="getticket">Get Free Ticket</button></a></li>
+                <li class="ml-5 mr-5"><a href="#contact">Contact</a></li>
+                <li class="ml-5 mr-5"><a href=""><button class="getticket">Get Free Ticket</button></a></li>
             </ul>
         </div>
         </div>
@@ -92,7 +94,7 @@
     <div  class="row row1 mt-5">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-auto text-center" data-aos="fade-up" data-aos-duration="2000">
             <p id="gates1">GATES 20-20 Annual Fest Of GTBIT<br><i style="color: #F171AB;font-weight: bolder;font-family: gtbit2;">( 18<sup>th</sup> March)</i></p>
-            <div><a href="getTicket.php"><button class="getticket"> Get Free Ticket</button></a></div>
+            <div><a href=""><button class="getticket"> Get Free Ticket</button></a></div>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" id="frontsvg">
             <svg width="100%" height="100%" viewBox="0 0 1349 975" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,8 +180,8 @@
 
     <div class="row countdown align-items-center ">
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 calendar text-center mb-5 " data-aos="zoom-in" data-aos-duration="2000">
-            <svg width="836" height="661" viewBox="0 0 836 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 calendar text-center mb-2 mt-3 " data-aos="zoom-in" data-aos-duration="2000">
+            <svg  viewBox="0 0 836 661" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="undraw_calendar_dutt 1">
                 <g clip-path="url(#clip0)">
                 <path id="Vector" d="M835.61 0H35.61V529H835.61V0Z" fill="url(#paint0_linear)"/>
@@ -373,10 +375,75 @@
         </div>
     </div>
 
+<!-- counter end -->
 
-    <!-- footer start -->
+<!-- flashback start -->
 
-    <div class="upperfooter mt-5">
+<div class="flashback mt-3" id="flashback">
+    <div class="row pl-2">
+        <p id="flashb">Flashback</p>
+    </div>
+    <div class="bgimgline  pt-5 pb-5">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="container1">
+                <div class="row justify-content-start">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2009.png" alt=""></div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2010.png" alt=""></div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2011.png" alt=""></div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2012.png" alt=""></div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2013.png" alt=""></div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2014.png" alt=""></div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2016.png" alt=""></div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2" data-aos="zoom-in" data-aos-duration="2000"><img src="images/2019.png" alt=""></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<!-- flashback end -->
+
+
+<!-- Memories start -->
+
+<section class="mt-3 mb-3" id="memories">
+
+    <div class="row mt-3  pl-3">
+        <p id="mem">Memories</p>
+    </div>
+    <div class="video">
+        <video id ="vidslider" controls autoplay muted>
+            <source src = "images/video1.mp4" type ="video/mp4">
+        </video>
+
+        <ul class ="navigation">
+        <li onclick="videoUrl('images/video1.mp4')"><img src ="images/thumb1.jpeg"></li>
+        <li onclick="videoUrl('images/video2.mp4')"><img src ="images/thumb2.jpeg"></li>
+        <li onclick="videoUrl('images/video3.mp4')"><img src ="images/thumb3.jpeg"></li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- Memories end -->
+
+<!-- footer start -->
+
+    <div class="upperfooter mt-5" id="contact">
         <div class="row pt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
                 <div class="d-flex justify-content-center">
@@ -444,14 +511,14 @@
             </div>
         </div>
     </div>
-    <div>
+    <!-- <div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
                 <p class="developer">Made with <i class="fas fa-heart animated heartBeat" style="color: red;"></i> By <a href="images/Kuldeep_Rawat_Resume.pdf">Kuldeep Rawat</a> & <a href="images/resume.pdf">Aman</a></p>
                 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- footer end -->
     <!-- counter end -->
