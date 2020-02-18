@@ -1,3 +1,4 @@
+    // ***************** Navbar start ************//
     var count=0;
         function mobilenav(){       
             let nav=document.getElementById("mobilenav");
@@ -22,8 +23,9 @@
                 count=0;
             }
         }
-        
-        // ***************  Scroll  *********************//
+        // *************** Navbar end ******************//
+
+        // ***************  Scroll events start *********************//
         window.onscroll=()=>{
             var open = document.getElementById("open");
             var totop = document.getElementById('totop');
@@ -40,7 +42,17 @@
               }
         }
 
-        // counter
+        // ***************  Scroll events end *********************//
+
+        // **************** video slider start ********************//
+
+        function videoUrl(vid)
+        {
+            document.getElementById("vidslider").src = vid;
+        }
+
+        // ***************** video slider end ********************//
+        // *************** count start ***************************//
 
         function Countdown(){
             var now=new Date();
