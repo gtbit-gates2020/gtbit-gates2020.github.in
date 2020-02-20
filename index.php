@@ -10,12 +10,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/d081420e73.js"></script>
+    
 
     <!-- Links -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="images/animate.css">
     <link rel="icon" href="images/Logo-01-01.png">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>GATES 20-20 ------GTBIT</title>
 </head>
@@ -426,7 +428,7 @@
         <p id="mem">Memories</p>
     </div>
     <div class="video">
-        <video id ="vidslider" controls autoplay loop>
+        <video id ="vidslider" controls autoplay muted>
             <source src = "images/video1.mp4" type ="video/mp4">
         </video>
 
@@ -514,7 +516,7 @@
     <!-- <div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                <p class="developer">Made with <i class="fas fa-heart animated heartBeat" style="color: red;"></i> By <a href="images/Kuldeep_Rawat_Resume.pdf">Kuldeep Rawat</a> </p>
+                <p class="developer">Made with <i class="fas fa-heart animated heartBeat" style="color: red;"></i> By <a href="images/Kuldeep_Rawat_Resume.pdf">Kuldeep Rawat</a> & <a href="images/resume.pdf">Aman</a></p>
                 
             </div>
         </div>
