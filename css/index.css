@@ -454,8 +454,8 @@ section video{
 section .navigation
 {
     position: absolute;
-    bottom: 20%;
-    left:30%;
+    bottom:7%;
+    left:35%;
     z-index: 10;
     display: flex;
 }  
@@ -534,7 +534,7 @@ section .navigation li img:hover
         height: 80%;
     }
     section .navigation{
-        left: 15%;
+        left: 10%;
     }
 }
 @media(max-width:350px){
