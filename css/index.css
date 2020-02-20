@@ -14,7 +14,13 @@
 }
 body{
     background: url(../images/backgroundW.png) center center fixed no-repeat;
-    background-size: cover;
+    background-size: cover!important;
+}
+@media(max-width:600px){
+    body{
+        background: url(../images/background.png) center center fixed no-repeat;
+    
+    }
 }
 ::-webkit-scrollbar {
     width: 15px;
@@ -454,11 +460,11 @@ section video{
 section .navigation
 {
     position: absolute;
-    bottom:7%;
-    left:32%;
-    z-index: 5;
+    bottom: 10%;
+    left:35%;
+    z-index: 10;
     display: flex;
-}  
+}
 
 section .navigation li
 {
@@ -534,7 +540,7 @@ section .navigation li img:hover
         height: 80%;
     }
     section .navigation{
-        left: 15%;
+        left: 10%;
     }
 }
 @media(max-width:350px){
