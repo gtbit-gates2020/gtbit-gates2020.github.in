@@ -426,7 +426,7 @@
         <p id="mem">Memories</p>
     </div>
     <div class="video">
-        <video id ="vidslider" controls autoplay>
+        <video id ="vidslider" controls autoplay loop>
             <source src = "images/video1.mp4" type ="video/mp4">
         </video>
 
