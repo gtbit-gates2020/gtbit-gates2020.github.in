@@ -454,7 +454,7 @@ section video{
 section .navigation
 {
     position: absolute;
-    bottom: 20%;
+    bottom: 5%;
     left:30%;
     z-index: 10;
     display: flex;
