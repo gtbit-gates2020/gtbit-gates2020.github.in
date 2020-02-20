@@ -455,7 +455,7 @@ section .navigation
 {
     position: absolute;
     bottom:7%;
-    left:35%;
+    left:32%;
     z-index: 10;
     display: flex;
 }  
