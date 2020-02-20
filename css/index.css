@@ -14,13 +14,7 @@
 }
 body{
     background: url(../images/backgroundW.png) center center fixed no-repeat;
-    background-size: cover!important;
-}
-@media(max-width:600px){
-    body{
-        background: url(../images/background.png) center center fixed no-repeat;
-    
-    }
+    background-size: cover;
 }
 ::-webkit-scrollbar {
     width: 15px;
