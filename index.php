@@ -434,7 +434,7 @@
 
         <ul class ="navigation">
         <li onclick="videoUrl('images/video1.mp4')"><img src ="images/thumb1.jpg"></li>
-        <li onclick="videoUrl('images/video2.mp4')"><img src ="images/thumb2.jpeg"></li>
+        <li onclick="videoUrl('images/video2.mp4')"><img src ="images/thumb2.jpg"></li>
         <li onclick="videoUrl('images/video3.mp4')"><img src ="images/thumb3.jpeg"></li>
         </ul>
     </div>
