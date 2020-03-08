@@ -395,13 +395,13 @@ ul li,a{
 @media(max-width:800px){
     .bgimgline div div img{
         width: 350px!important;
-        height: 150px!important;
+        height: 250px!important;
     }
 }
 @media(max-width:550px){
     .bgimgline div div img{
         width: 300px!important;
-        height: 120px!important;
+        height: 200px!important;
     }
 }
 /* flashback end */
