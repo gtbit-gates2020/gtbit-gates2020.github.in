@@ -63,7 +63,7 @@
         <img src="images\Logo-01-01.png" alt="GTBIT gates 20-20 logo" class="animated flash">
         <ul class="animated rubberBand">
             <li onclick="mobilenav()"><a href="" >Home</a></li>
-            <li onclick="mobilenav()"><a href="">About</a></li>
+            <li onclick="mobilenav()"><a href="#about">About</a></li>
             <li onclick="mobilenav()"><a href="#contact">Contact</a></li>
             <li onclick="mobilenav()"><a href="#memories">Memories</a></li>
             <li onclick="mobilenav()"><a href="#flashback">Flashback</a></li>
@@ -81,7 +81,7 @@
         <div data-aos="fade-left" data-aos-duration="2000">
             <ul style="display: flex;float: left; ">
                 <li class="ml-5 mr-5"><a href="">Home</a></li>
-                <li class="ml-5 mr-5"><a href="">About</a></li>
+                <li class="ml-5 mr-5"><a href="#about">About</a></li>
                 <li class="ml-5 mr-5"><a href="#contact">Contact</a></li>
                 <li class="ml-5 mr-5"><a href=""><button class="getticket">Get Free Ticket</button></a></li>
             </ul>
@@ -383,7 +383,7 @@
 
 <div class="flashback mt-3" id="flashback">
     <div class="row pl-2">
-        <p class="heading">Flashback</p>
+        <p class="heading"><i class="fas fa-backward pr-2"></i> Flashback</p>
     </div>
     <div class="bgimgline  pt-5 pb-5">
         <div class="d-flex justify-content-center align-items-center">
@@ -422,7 +422,7 @@
 
 <!-- Memories start -->
 
-<section class="mt-3 mb-3" id="memories">
+<section class="mt-3 mb-3 section1" id="memories">
 
     <div class="row mt-3  pl-3">
         <p class="heading">Memories</p>
@@ -443,20 +443,43 @@
 
 <!-- Memories end -->
 
-<!-- Contacts start -->
+
+<!-- sponsors start -->
+
+<section class="mt-3 mb-3" id="sponsors">
     <div class="row mt-5  pl-3">
-        <p class="heading">Contacts</p>
+        <p class="heading"><i class="fas fa-hand-holding-usd pr-2"></i>Sponsors</p>
     </div>
-    <div class="upperfooter mt-1" id="contact">
+</section>
+
+<!-- sponsors end -->
+
+<!-- about us start -->
+
+<section class="mt-3 mb-3" id="about">
+    <div class="row mt-5  pl-3">
+        <p class="heading"><i class="fas fa-users pr-2"></i></i>About Us</p>
+    </div>
+</section>
+
+<!-- about us end -->
+
+
+<!-- Contacts start -->
+<section class="mt-3 mb-3" id="contact">
+    <div class="row mt-5  pl-3">
+        <p class="heading"><i class="fas fa-phone-alt pr-2"></i>Contact Us</p>
+    </div>
+    <div class="upperfooter mt-1" >
         <div class="row pt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
                 <div class="d-flex justify-content-center">
                     <a href="tel:+91 7827409366" class="hrotate">
                     <div class="text-center">
-                        <i class="fas fa-phone-alt upperfooteri"></i>
+                        <i class="fas fa-mobile upperfooteri"></i>
                     </div>
                     <div class="text-center" style="color: #3e12eb;font-weight: bolder;">
-                        <p>+91 7827409366</p>
+                        <p style="margin:0px!important">+91 7827409366</p>
                         <p>(Saurabh Gupta)</p>
                     </div>
                     </a>
@@ -487,8 +510,12 @@
             </div>
         </div>
     </div>
-   
-<!-- footer start --> 
+</section>
+   <!-- contact end -->
+
+
+
+   <!-- footer start --> 
     <div class="footer">
         <div class="footer1 pt-3 pb-3">
             <div class="row justify-content-center " data-aos="fade-down-right" data-aos-duration="1000">
