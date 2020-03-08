@@ -103,3 +103,17 @@
         // service worker
 
         if ('serviceWorker' in navigator) {  navigator.serviceWorker.register('/service-worker.js'); }
+
+
+        // ///////////
+        function down(){
+            document.getElementById('pdf').click();
+            var inside = document.getElementById('inside');
+            var download = document.getElementById('download');
+            inside.style.width = '50px';
+            setTimeout(()=>{
+                inside.style.width = "170px";
+                document.getElementById('maindown').style.backgroundColor = "#3bfeb8";
+                download.innerHTML="DOWNLOADED";
+            },1500);
+        }
