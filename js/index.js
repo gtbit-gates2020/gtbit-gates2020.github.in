@@ -117,3 +117,5 @@
                 download.innerHTML="DOWNLOADED";
             },1500);
         }
+
+        console.log("This website is maintained by KULDEEP RAWAT(KR)\n If you find something incorrect please contact me: kuldeep363rawat@gmail.com");
