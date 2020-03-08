@@ -451,12 +451,13 @@
         <div class="row pt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
                 <div class="d-flex justify-content-center">
-                    <a href="tel:9868232286" class="hrotate">
+                    <a href="tel:+91 7827409366" class="hrotate">
                     <div class="text-center">
                         <i class="fas fa-phone-alt upperfooteri"></i>
                     </div>
                     <div class="text-center" style="color: #3e12eb;font-weight: bolder;">
-                        <p>9868232286</p>
+                        <p>+91 7827409366</p>
+                        <p>(Saurabh Gupta)</p>
                     </div>
                     </a>
                 </div>
@@ -496,7 +497,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="maindown mt-3" onclick="down()" id="maindown">
+                <div class="maindown mt-3" onclick="down()" id="maindown" data-aos="zoom-in" data-aos-duration="1000">
                     <a href="images/Gates_final.pdf" download="gtbit logo" style="display: none;" id="pdf"></a>
                     <div  style="display: flex;" id="inside">
                         <div>
@@ -508,7 +509,7 @@
             </div>
             <div class="mt-3">
                 <div class="row">
-                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href=""><i class="fab fa-facebook-square contacts hrotate1"></i></a></div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href="https://www.facebook.com/gatesgtbit/"><i class="fab fa-facebook-square contacts hrotate1"></i></a></div>
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href="https://www.instagram.com/gates_gtbit/"><i class="fab fa-instagram-square contacts hrotate1"></i></a></div>
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href=""><i class="fab fa-twitter-square contacts hrotate1"></i></a></div>
                     <div class="col-3 col-sm- col-md-3 col-lg-3 col-xl-3 text-center" data-aos="zoom-in" data-aos-duration="2000"><a href="mailto:@gatesgtbitofficial@gmail.com"><i class="fas fa-mail-bulk contacts hrotate1"></i></a></div>
