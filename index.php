@@ -383,7 +383,7 @@
 
 <div class="flashback mt-3" id="flashback">
     <div class="row pl-2">
-        <p id="flashb">Flashback</p>
+        <p class="heading">Flashback</p>
     </div>
     <div class="bgimgline  pt-5 pb-5">
         <div class="d-flex justify-content-center align-items-center">
@@ -425,7 +425,7 @@
 <section class="mt-3 mb-3" id="memories">
 
     <div class="row mt-3  pl-3">
-        <p id="mem">Memories</p>
+        <p class="heading">Memories</p>
     </div>
     <div class="video">
         <video id ="vidslider" controls autoplay muted loop>
@@ -433,8 +433,8 @@
         </video>
 
         <ul class ="navigation">
-        <li onclick="videoUrl('images/video1.mp4')"><img src ="images/thumb1.jpg"></li>
-        <li onclick="videoUrl('images/video2.mp4')"><img src ="images/thumb2.jpg"></li>
+        <li onclick="videoUrl('images/video1.mp4')"><img src ="images/thumb1.jpeg"></li>
+        <li onclick="videoUrl('images/video2.mp4')"><img src ="images/thumb2.jpeg"></li>
         <li onclick="videoUrl('images/video3.mp4')"><img src ="images/thumb3.jpeg"></li>
         </ul>
     </div>
@@ -443,9 +443,11 @@
 
 <!-- Memories end -->
 
-<!-- footer start -->
-
-    <div class="upperfooter mt-5" id="contact">
+<!-- Contacts start -->
+    <div class="row mt-5  pl-3">
+        <p class="heading">Contacts</p>
+    </div>
+    <div class="upperfooter mt-1" id="contact">
         <div class="row pt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
                 <div class="d-flex justify-content-center">
@@ -484,12 +486,24 @@
             </div>
         </div>
     </div>
-    
+   
+<!-- footer start --> 
     <div class="footer">
         <div class="footer1 pt-3 pb-3">
             <div class="row justify-content-center " data-aos="fade-down-right" data-aos-duration="1000">
                 <div class="col-12 col-sm-12 col-ms-12 col-lg-12 col-xl-12" >
                     <p class="text-center enjoy " style="font-size: 40px;color: #F171AB;"><i class="fas fa-glass-cheers pr-3 animated shake party1" style="color: #A94D9D;"></i><i>Come And Enjoy The Events</i><i class="fas fa-glass-cheers pl-3 animated shake party1" style="color: #A94D9D;"></i></p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="maindown mt-3" onclick="down()" id="maindown">
+                    <a href="images/Gates_final.pdf" download="gtbit logo" style="display: none;" id="pdf"></a>
+                    <div  style="display: flex;" id="inside">
+                        <div>
+                            <img src="images/logodown.png" alt="">
+                        </div>
+                        <p style="line-height: 50px;font-size: 15px;font-family: gtbit1;" id="download">DOWNLOAD BROCHURE</p>
+                    </div>
                 </div>
             </div>
             <div class="mt-3">
