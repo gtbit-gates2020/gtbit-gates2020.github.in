@@ -376,9 +376,9 @@ ul li,a{
 /* flashback start */
 
 
-.bgimgline div div img{
+.bgimgline div div img{  
     width: 600px;
-    height: 200px;
+    height: 400px;
 }
 .bgimgline div .container1{
     width: 100%;
@@ -411,7 +411,7 @@ ul li,a{
 
 
 
-#mem,#flashb{
+.heading{
     font-size: 40px;
     color: #A895C7;
     font-weight: bolder;
@@ -420,7 +420,7 @@ ul li,a{
     position: relative;
     cursor: pointer;
 }
-#mem::before,#flashb:before{
+.heading::before{
     position: absolute;
     content: "";
     bottom: 0;
@@ -429,7 +429,7 @@ ul li,a{
     width: 50%;
     transition: 0.5s width linear;
 }
-#mem:hover::before,#flashb:hover::before{
+.heading:hover::before{
     width: 100%;
 }
 section
@@ -562,17 +562,17 @@ section .navigation li img:hover
 .contacts{
     font-size: 60px;
 }
-.footer div:nth-child(2)>div div:nth-child(1) i{
-    color: #3e12eb;
+.footer div:nth-child(3)>div div:nth-child(1) a i{
+    color: #3e12eb!important;
 }
-.footer div:nth-child(2)>div div:nth-child(2) i{
-    color: #6B66AE;
+.footer div:nth-child(3)>div div:nth-child(2) a i{
+    color: #6B66AE!important;
 }
-.footer div:nth-child(2)>div div:nth-child(3) i{
-    color: #4CC7E8;
+.footer div:nth-child(3)>div div:nth-child(3) a i{
+    color: #4CC7E8!important;
 }
-.footer div:nth-child(2)>div div:nth-child(4) i{
-    color: rgb(153, 10, 10);
+.footer div:nth-child(3)>div div:nth-child(4) a i{
+    color: rgb(153, 10, 10)!important;
 }
 /*  */
 .hrotate:hover  div:nth-child(1), .hrotate1:hover{
@@ -615,5 +615,29 @@ a:hover{
     .developer{
         font-size: 15px;
     }
+}
+.inside{
+    width: 100%;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.maindown{
+    background-color:aliceblue;
+    height: 100%;
+    border: none;
+    border-radius: 50px; 
+    overflow: hidden;
+}
+#inside{
+    position: relative;
+    width: 235px;
+    height: 50px;
+    transition: all 1s linear;
+    cursor: pointer;
 }
 /* footer end */
