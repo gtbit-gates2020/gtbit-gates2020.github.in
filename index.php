@@ -8,6 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
     <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/d081420e73.js"></script>
     
@@ -45,6 +48,52 @@
     </div>
 
     <!-- preloader end  -->
+
+
+    <!-- star night start -->
+
+        <button class="star-night" data-toggle="modal" data-target="#star-night">&#10024</button>
+
+        <div class="modal" id="star-night">
+            <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="modal-title text-center mt-2 mb-5" style="font-family: gtbit2;color:#974be9;font-size:40px;font-weight:bold;">&#10024 &#10024 Star Night &#10024 &#10024</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center animated lightSpeedIn">
+                            <a href="">
+                                <img src="images/who.png" alt="" class="img-thumbnail">
+                                <p>??????????</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center animated lightSpeedIn">
+                            <a href="">
+                                <img src="images/who.png" alt="" class="img-thumbnail">
+                                <p>??????????</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center animated lightSpeedIn">
+                            <a href="">
+                                <img src="images/who.png" alt="" class="img-thumbnail">
+                                <p>??????????</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center mt-5 animated jello">
+                            <a href="">
+                                <button class="getticket" >Get Free Tickets</button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <h2 class="modal-title text-center mt-5 mb-5" style="font-family: gtbit2;color:#974be9;font-size:40px;font-weight:bold;"><i class="fab fa-youtube pr-2" style="color:red"></i>YOUTUBE FANFEST</h2>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+    <!-- star night end -->
+
 
     <!-- mobile navbar start -->
     <div  id="open">
@@ -389,7 +438,7 @@
 
     <div class="row justify-content-center">
         <div>
-            <p style="font-family: gtbit2;font-size:40px;font-weight:bold;color:#F171AB;text-align:center;" class="animated heartBeat" >Coming Soon....</p>
+            <p style="font-family: gtbit2;font-size:40px;font-weight:bold;color:#F171AB;text-align:center;animation-iteration-count:infinite;" class="animated fadeIn" >Coming Soon....</p>
         </div>
     </div>
 </section>
@@ -515,7 +564,7 @@
 <section class="mt-3 mb-3" id="message">
     <br>
     <div class="row mt-5  pl-3">
-        <p class="heading"><i class="fas fa-envelope pr-2"></i>Message From Team</p>
+        <p class="heading"><i class="fas fa-envelope pr-2"></i>Message</p>
     </div>
     <div class="mt-2">
         <div class="row justify-content-center">
