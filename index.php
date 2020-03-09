@@ -52,7 +52,7 @@
 
     <!-- star night start -->
 
-        <button class="star-night" data-toggle="modal" data-target="#star-night">&#10024</button>
+        <button class="star-night" data-toggle="modal" data-target="#star-night" title="Star Night">&#10024</button>
 
         <div class="modal" id="star-night">
             <div class="modal-dialog" >
