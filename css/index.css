@@ -546,6 +546,46 @@ section .navigation li img:hover
 }
 /* memories end */
 
+/* about start */
+
+#about h1 {
+    font-size: 30px!important;
+    text-align: center;
+    font-family: gtbit1;
+}
+@media(max-width:1000px){
+    #about h1{
+        text-align: start;
+        font-size: 15px!important;
+    }
+    #about h1 b{
+        font-size: 25px!important;
+    }
+}
+#about h1 b{
+    font-size:35px;
+    color: #eb12bc;
+    font-weight: bold;
+}
+
+/* about end */
+
+/* message start */
+
+.teammembers img{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+    transition:  1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+}
+.teammembers img:hover{
+    border-radius: 30%;
+}
+
+/* message end */
 
 /* footer start */
 
@@ -606,6 +646,9 @@ a:hover{
 }
 .heartBeat{
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
 }
 
 .developer{
