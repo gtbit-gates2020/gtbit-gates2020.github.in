@@ -90,6 +90,76 @@ body{
 }
 
 /* to top end */
+
+/* start night start */
+
+.star-night{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 15%;
+    background-color: black;
+    border-top-right-radius: 100%;
+    border: none;
+    font-size: 80px;
+    outline: none;
+    z-index: 10;
+    transition: 1s all linear;
+}
+@media(min-width:1000px){
+    .star-night:hover{
+        width: 15%;
+        height: 20%;
+    }
+}
+
+.star-night:focus{
+    outline: none;
+}
+@media(max-width:1200px){
+    .star-night{
+        width: 20%;
+        height:15%;
+    }
+}
+@media(max-width:600px){
+    .star-night{
+        width: 20%;
+        height: 10%;
+        font-size: 40px;
+    }
+}
+.modal-dialog{
+    max-width: 80%!important;
+    height: 100vh!important;
+    margin: auto!important;
+}
+.modal-content{
+    background-color: rgb(31, 29, 29)!important;
+}
+.modal-body img{
+    border: none;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 50%;
+    transition: 1s all linear;
+}
+.modal-body img:hover{
+    border-radius: 30%;
+}
+@media(max-width:1000px){
+    .modal-content h2{
+        font-size: 30px!important;
+    }
+}
+@media(max-width:600px){
+    .modal-content h2{
+        font-size: 20px!important;
+    }
+}
+/* start night end */
+
 a:hover{
     text-decoration: none!important;
 }
@@ -418,7 +488,6 @@ ul li,a{
     font-family: gtbit1;
     border: none;
     position: relative;
-    cursor: pointer;
 }
 .heading::before{
     position: absolute;
