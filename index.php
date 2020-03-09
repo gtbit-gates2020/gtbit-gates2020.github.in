@@ -379,9 +379,27 @@
 
 <!-- counter end -->
 
+<!-- events start -->
+
+<section class="mt-3 mb-3" id="events">
+    <br>
+    <div class="row mt-5  pl-3">
+        <p class="heading"><i class="fas fa-calendar-alt pr-2"></i></i>Events</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div>
+            <p style="font-family: gtbit2;font-size:40px;font-weight:bold;color:#F171AB;text-align:center;" class="animated heartBeat" >Coming Soon....</p>
+        </div>
+    </div>
+</section>
+
+<!-- events end -->
+
 <!-- flashback start -->
 
 <div class="flashback mt-3" id="flashback">
+    <br>
     <div class="row pl-2">
         <p class="heading"><i class="fas fa-backward pr-2"></i> Flashback</p>
     </div>
@@ -423,7 +441,7 @@
 <!-- Memories start -->
 
 <section class="mt-3 mb-3 section1" id="memories">
-
+    <br>
     <div class="row mt-3  pl-3">
         <p class="heading">Memories</p>
     </div>
@@ -447,6 +465,7 @@
 <!-- sponsors start -->
 
 <section class="mt-3 mb-3" id="sponsors">
+    <br>
     <div class="row mt-5  pl-3">
         <p class="heading"><i class="fas fa-hand-holding-usd pr-2"></i>Sponsors</p>
     </div>
@@ -457,16 +476,102 @@
 <!-- about us start -->
 
 <section class="mt-3 mb-3" id="about">
-    <div class="row mt-5  pl-3">
+    <br>
+    <div class="row pl-3">
         <p class="heading"><i class="fas fa-users pr-2"></i></i>About Us</p>
+    </div>
+    <div class="mt-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" style="font-family: gtbit2;font-size:20px;">
+                <p data-aos="fade-in" data-aos-duration="2000">
+                    <b style="font-size:25px!important;">Guru Tegh Bahadur Institute of Technology</b> is an institute devoted to make every effort
+                    to be a leading institute and be recognized as a center of excellence in technical
+                    education, R&D, consultancy and human resources.
+                </p>
+                <div class="mt-2 mb-3" data-aos="flip-down" data-aos-duration="1000">
+                    <div class="row justify-content-center">
+                        <img src="images/present.png" alt="gtbit present gates 2020" style="width:80%;height:50%">
+                    </div>
+                </div>
+                <h1>
+                    <b>G</b>TBIT's <b>A</b>nnual <b>T</b>echno-cultural <b>E</b>vent for creative <b>S</b>ouls
+                </h1>
+                <p style="text-align:center;"><strong>"Creativity, Endurance, Intelligence, Wits, Inquisitiveness, Managerial, literary and</strong></p>
+                <p style="text-align: center;"><strong>technical Skills, Hark Work ..... GATES is the litmus test of all."</strong></p>
+                <p data-aos="fade-in" data-aos-duration="2000">
+                    GATES is the annual techno-cultural fest of GTBIT. It extends an amazing opportunity to
+                    the GTBIT community to showcase the rich culture of GTBITians; a venture to initiate,
+                    build and maintain acquaintances in the academic and the industrial arena.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
 <!-- about us end -->
 
+<!-- message start -->
+
+<section class="mt-3 mb-3" id="message">
+    <br>
+    <div class="row mt-5  pl-3">
+        <p class="heading"><i class="fas fa-envelope pr-2"></i>Message From Team</p>
+    </div>
+    <div class="mt-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" style="font-family: gtbit2;font-size:20px;">
+                <p style="font-size: 25px!important"><strong>Greetings!</strong></p>
+                <p data-aos="fade-in" data-aos-duration="2000">
+                    GATES isn’t just an event for us, it is in fact a journey, a festival that enables us to put our
+                    best foot forward and participate enthusiastically the dates of the event. It helps define
+                    ourselves, find our paths and most importantly take something from it to cherish as a
+                    team! 
+                </p>
+                <p data-aos="fade-in" data-aos-duration="2000">    
+                    This year we’re back with double energy and enthusiasm to make this event an absolute
+                    success for everyone. Hence, we invite all the sponsors to have trust in us and get
+                    associated with us.
+                </p>
+                <p>
+                    Regards,
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center teammembers">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                <div class="row justify-content-center text-center" style="font-family: gtbit1;font-size:20px; color:#974be9">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2 ">
+                        <div data-aos="flip-right" data-aos-duration="1000">
+                            <img src="images/avatarman.png" alt="chairman" class="img-thumbnail" >
+                        </div>
+                        <p>S. Avtar Singh Hit</p>
+                        <p>Chairman (GTBIT)</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2">
+                        <div data-aos="flip-left" data-aos-duration="1000">
+                            <img src="images/avatarman.png" alt="manager" class="img-thumbnail" >
+                        </div>
+                        <p>S. Gurmeet Singh Bhatia</p>
+                        <p>Manager (GTBIT)</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2">
+                        <div data-aos="flip-right" data-aos-duration="1000">
+                            <img src="images/avatarwoman.png" alt="director" class="img-thumbnail" >
+                        </div>
+                        <p>Dr. (Mrs.) Rominder Kaur</p>
+                        <p>Director (GTBIT)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- message end -->
 
 <!-- Contacts start -->
 <section class="mt-3 mb-3" id="contact">
+    <br>
     <div class="row mt-5  pl-3">
         <p class="heading"><i class="fas fa-phone-alt pr-2"></i>Contact Us</p>
     </div>
@@ -474,7 +579,7 @@
         <div class="row pt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
                 <div class="d-flex justify-content-center">
-                    <a href="tel:+91 7827409366" class="hrotate">
+                    <a href="tel:+91 7827409366" class="hrotate" title="click to call">
                     <div class="text-center">
                         <i class="fas fa-mobile upperfooteri"></i>
                     </div>
@@ -487,7 +592,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="d-flex justify-content-center">
-                        <a href="mailto:@gatesgtbitofficial@gmail.com" class="hrotate">
+                        <a href="mailto:@gatesgtbitofficial@gmail.com" class="hrotate" title="click to mail">
                         <div class="text-center">
                             <i class="fas fa-envelope upperfooteri"></i>
                         </div>
@@ -498,7 +603,7 @@
                     </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1000">
-                <a  href="https://www.google.com/maps?ll=28.631787,77.116482&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=7536328581513829246" class="hrotate">
+                <a  href="https://www.google.com/maps?ll=28.631787,77.116482&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=7536328581513829246" class="hrotate" title="click to get direction">
                     <div class="text-center ">
                         <i class="fas fa-map-marked-alt upperfooteri"></i>
                     </div>
@@ -525,7 +630,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="maindown mt-3" onclick="down()" id="maindown" data-aos="zoom-in" data-aos-duration="1000">
-                    <a href="images/Gates_final.pdf" download="gtbit logo" style="display: none;" id="pdf"></a>
+                    <a href="images/Gates_final.pdf" download="GTBIT GATES 2020 BROCHURE" style="display: none;" id="pdf"></a>
                     <div  style="display: flex;" id="inside">
                         <div>
                             <img src="images/logodown.png" alt="">
