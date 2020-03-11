@@ -10,6 +10,9 @@
     <meta property="og:image:secure_url" itemprop="image" content="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png">
     <meta property="og:url" content="https://gtbitgates2020.herokuapp.com">
     <meta property="og:type" content="website" >
+    <link itemprop="thumbnailUrl" href="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png"> 
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:updated_time" content="1000241">
     <meta name="twitter:card" content="GATES(2020)Annual Fest of GTBIT">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -34,6 +37,9 @@
 </head>
 <body>
 
+    <span itemprop="image" itemscope itemtype="image/jpeg"> 
+      <link itemprop="url" href="https://gtbitgates2020.herokuapp.com/Logo-01-01.png"> 
+    </span>
     <!-- go to top start -->
 
     <div class="totop animated lightSpeedIn" id="totop" style="font-size: 50px;cursor:pointer;color: #974be9; position: fixed; bottom: 10px;right: 10px;" onclick="totop()"><i class="fas fa-arrow-alt-circle-up"></i></div>
