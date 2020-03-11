@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <!-- preloader end  -->
+    <!-- preloader end -->
 
 
     <!-- star night start -->
