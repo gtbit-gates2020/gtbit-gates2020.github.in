@@ -63,7 +63,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center animated lightSpeedIn">
                             <a href="">
                                 <img src="images/who.png" alt="" class="img-thumbnail">
-                                <p>??????????</p>
+                                <p >??????????</p>
                             </a>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center animated lightSpeedIn">
@@ -505,7 +505,53 @@
         <li onclick="videoUrl('images/video3.mp4')"><img src ="images/thumb3.jpeg"></li>
         </ul>
     </div>
-
+</section>
+<section class="mt-5 ">
+        <div class="row celebs pt-5 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/diljit.jpg" alt="diljit" class="animated s">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-in" data-aos-duration="3000">
+                <p>Diljit Dosanjh</p>
+                <p>2010</p>
+            </div>
+        </div>
+        <div class="row celebs celebs1">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-in" data-aos-duration="3000">
+                <p>Sharry Maan</p>
+                <p>2014</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/Sharry-Mann.png" alt="sharry maan">
+            </div>
+        </div>
+        <div class="row celebs">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/gurdas-mann.jpg" alt="gurdas-maan">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-in" data-aos-duration="3000">
+                <p>Gurdas Maan</p>
+                <p>2016</p>
+            </div>
+        </div>
+        <div class="row celebs celebs1">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-in" data-aos-duration="3000">
+                <p>Guri</p>
+                <p>2019</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/guri.jpg" alt="guri">
+            </div>
+        </div>
+        <div class="row celebs">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/ninja.jpg" alt="ninja" >
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-in" data-aos-duration="3000">
+                <p>Ninja</p>
+                <p>2019</p>
+            </div>
+        </div>
 </section>
 
 <!-- Memories end -->
@@ -586,29 +632,29 @@
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center teammembers">
+        <div class="row justify-content-center ">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="row justify-content-center text-center" style="font-family: gtbit1;font-size:20px; color:#974be9">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2 ">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2 teammembers">
                         <div data-aos="flip-right" data-aos-duration="1000">
                             <img src="images/avatarman.png" alt="chairman" class="img-thumbnail" >
                         </div>
-                        <p>S. Avtar Singh Hit</p>
-                        <p>Chairman (GTBIT)</p>
+                        <p class="meminfo">S. Avtar Singh Hit</p>
+                        <p class="meminfo">Chairman (GTBIT)</p>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2 teammembers">
                         <div data-aos="flip-left" data-aos-duration="1000">
                             <img src="images/avatarman.png" alt="manager" class="img-thumbnail" >
                         </div>
-                        <p>S. Gurmeet Singh Bhatia</p>
-                        <p>Manager (GTBIT)</p>
+                        <p class="meminfo">S. Gurmeet Singh Bhatia</p>
+                        <p class="meminfo">Manager (GTBIT)</p>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-2 mb-2 teammembers">
                         <div data-aos="flip-right" data-aos-duration="1000">
                             <img src="images/avatarwoman.png" alt="director" class="img-thumbnail" >
                         </div>
-                        <p>Dr. (Mrs.) Rominder Kaur</p>
-                        <p>Director (GTBIT)</p>
+                        <p class="meminfo">Dr. (Mrs.) Rominder Kaur</p>
+                        <p class="meminfo">Director (GTBIT)</p>
                     </div>
                 </div>
             </div>
@@ -678,7 +724,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="maindown mt-3" onclick="down()" id="maindown" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="maindown mt-3" onclick="down()" id="maindown" data-aos="zoom-in" data-aos-duration="1000" title="Click to download brochure">
                     <a href="images/Gates_final.pdf" download="GTBIT GATES 2020 BROCHURE" style="display: none;" id="pdf"></a>
                     <div  style="display: flex;" id="inside">
                         <div>
