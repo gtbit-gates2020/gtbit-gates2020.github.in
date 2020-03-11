@@ -556,7 +556,7 @@ section .navigation li img:hover
 {
     width: 150px;  
 }
-@media(max-width:1000px){
+@media(max-width:1200px){
     .section1
 {
     width: 100%;
@@ -613,6 +613,54 @@ section .navigation li img:hover
     }
 
 }
+.celebs1{
+    flex-wrap: wrap-reverse!important;
+}
+.celebs1 p{
+    color: #a046f5!important;
+}
+.celebs img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 1s all linear;
+    animation: float 3s alternate infinite linear;
+    -webkit-animation: float 3s alternate infinite linear;
+    -moz-animation: float 3s alternate infinite linear;
+    -o-animation: float 3s alternate infinite linear;
+}
+.celebs p{
+    text-align: center!important;
+    font-family: gtbit1;
+    font-size: 35px;
+    color: #eb12bc;
+    transition: 1s all linear;
+}
+.celebs:hover p{
+    font-weight: bolder;
+}
+.celebs:hover img{
+    border-radius: 30%;
+}
+@media(min-width:1000px){
+    .celebs img{
+        width: 250px;
+        height: 250px;
+    }
+    .celebs{
+        justify-content: center!important;
+    }
+    .celebs div{
+        text-align: center;
+    }
+    .celebs p{
+        text-align:left!important;
+    }
+    .celebs1 p{
+        text-align: right!important;
+    }
+    
+}
 /* memories end */
 
 /* about start */
@@ -645,15 +693,22 @@ section .navigation li img:hover
     width:170px;
     height: 170px;
     border-radius: 50%;
+    image-rendering: pixelated;
     transition:  1s all linear;
     -webkit-transition: 1s all linear;
     -moz-transition: 1s all linear;
     -moz-transition: 1s all linear;
 }
-.teammembers img:hover{
+.teammembers:hover img{
     border-radius: 30%;
+    image-rendering:unset;
 }
-
+.teammembers .meminfo{
+    transition: all 1s linear;
+}
+.teammembers:hover .meminfo{
+    font-weight: bolder;
+}
 /* message end */
 
 /* footer start */
