@@ -7,8 +7,9 @@
     <meta name="keywords" content="GTBIT GATES, GTBIT GATES 2020, latest events, latest enevt in delhi, latest event in new delhi, latest fest in delhi, latest fest in new delhi, upcoming fest of gtbit, upcoming fest in delhi, upcoming fest in new delhi, upcomig fest of IPU collge, upcoming fest of ipu, gtbit, gtbit fest, gtbit fest events, gtbit google, gates 2020, GATES 2020, gtbit gates, gtbit college fest, best fest of delhi, best college fest of new delhi, best college fest of delhi, best college fest ever, best college upcoming fest, best upcomig fest">
     <meta property="og:title" content="GATES(2020) Annual Fest of GTBIT">
     <meta property="og:description" content=" It extends an amazing opportunity to the GTBIT community to showcase the rich culture of GTBITians">
-    <meta property="og:image" content="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png">
+    <meta property="og:image:secure_url" itemprop="image" content="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png">
     <meta property="og:url" content="https://gtbitgates2020.herokuapp.com">
+    <meta property="og:type" content="website" >
     <meta name="twitter:card" content="GATES(2020)Annual Fest of GTBIT">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
