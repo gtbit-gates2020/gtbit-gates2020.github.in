@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GATES is the annual techno-cultural fest of GTBIT. It extends an amazing opportunity to the GTBIT community to showcase the rich culture of GTBITians; a venture to initiate, build and maintain acquaintances in the academic and the industrial arena.">
+    <meta name="keywords" content="GTBIT GATES, GTBIT GATES 2020, latest events, latest enevt in delhi, latest event in new delhi, latest fest in delhi, latest fest in new delhi, upcoming fest of gtbit, upcoming fest in delhi, upcoming fest in new delhi, upcomig fest of IPU collge, upcoming fest of ipu, gtbit, gtbit fest, gtbit fest events, gtbit google, gates 2020, GATES 2020, gtbit gates, gtbit college fest, best fest of delhi, best college fest of new delhi, best college fest of delhi, best college fest ever, best college upcoming fest, best upcomig fest">
+    <meta property="og:title" content="GATES(2020) Annual Fest of GTBIT">
+    <meta property="og:description" content=" It extends an amazing opportunity to the GTBIT community to showcase the rich culture of GTBITians">
+    <meta property="og:image" content="images/Logo-01-01.png">
+    <meta property="og:url" content="https://gtbitgates2020.herokuapp.com">
+    <meta name="twitter:card" content="GATES(2020)Annual Fest of GTBIT">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
     <script src="js/index.js"></script>
@@ -22,7 +28,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>GATES 20-20 ------GTBIT</title>
+    <title>GTBIT GATES 2020 | GTBIT FEST | GTBIT GATES </title>
 </head>
 <body>
 
@@ -47,7 +53,7 @@
         </div>
     </div>
 
-    <!-- preloader end -->
+    <!-- preloader end  -->
 
 
     <!-- star night start -->
