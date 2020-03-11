@@ -9,8 +9,8 @@
     <meta property="og:description" content=" It extends an amazing opportunity to the GTBIT community to showcase the rich culture of GTBITians">
     <meta property="og:image" content="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />    
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />    
     <meta property="og:url" content="https://gtbitgates2020.herokuapp.com">
     <meta property="og:type" content="website" >
     <meta name="twitter:card" content="GATES(2020)Annual Fest of GTBIT">
