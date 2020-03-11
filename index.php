@@ -7,10 +7,10 @@
     <meta name="keywords" content="GTBIT GATES, GTBIT GATES 2020, latest events, latest enevt in delhi, latest event in new delhi, latest fest in delhi, latest fest in new delhi, upcoming fest of gtbit, upcoming fest in delhi, upcoming fest in new delhi, upcomig fest of IPU collge, upcoming fest of ipu, gtbit, gtbit fest, gtbit fest events, gtbit google, gates 2020, GATES 2020, gtbit gates, gtbit college fest, best fest of delhi, best college fest of new delhi, best college fest of delhi, best college fest ever, best college upcoming fest, best upcomig fest">
     <meta property="og:title" content="GATES(2020) Annual Fest of GTBIT">
     <meta property="og:description" content=" It extends an amazing opportunity to the GTBIT community to showcase the rich culture of GTBITians">
-    <meta property="og:image:secure_url" itemprop="image" content="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png">
+    <meta property="og:image:secure_url" itemprop="image" content="https://gtbitgates2020.herokuapp.com/images/logodown.png">
     <meta property="og:url" content="https://gtbitgates2020.herokuapp.com">
     <meta property="og:type" content="website" >
-    <link itemprop="thumbnailUrl" href="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png"> 
+    <link itemprop="thumbnailUrl" href="https://gtbitgates2020.herokuapp.com/images/logodown.png"> 
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:updated_time" content="1000241">
     <meta name="twitter:card" content="GATES(2020)Annual Fest of GTBIT">
@@ -38,7 +38,7 @@
 <body>
 
     <span itemprop="image" itemscope itemtype="image/jpeg"> 
-      <link itemprop="url" href="https://gtbitgates2020.herokuapp.com/Logo-01-01.png"> 
+      <link itemprop="url" href="https://gtbitgates2020.herokuapp.com/logodown.png"> 
     </span>
     <!-- go to top start -->
 
