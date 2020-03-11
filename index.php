@@ -27,6 +27,7 @@
     <link rel="icon" href="images/Logo-01-01.png">
     <link rel="stylesheet" href="css/index.css">
     <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/x-icon" href="https://gtbitgates2020.herokuapp.com/images/Logo-01-01.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>GTBIT GATES 2020 | GTBIT FEST | GTBIT GATES </title>
 </head>
